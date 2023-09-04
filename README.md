@@ -1,6 +1,4 @@
 
-# SAM with YOLO
-
 This repository presents a comprehensive approach for segmenting Regions of Interest (ROI) in diverse medical imaging datasets, including ultrasound, CT scans, and X-ray images. Our method combines the YOLOv8 model for approximate boundary box detection across modalities with the Segment Anything Model (SAM) and High Quality (HQ) SAM for fully automatic and precise segmentation. 
 
 [**Here is the Web-app:**](https://mlshots.live/YOLO-SAM/software).
