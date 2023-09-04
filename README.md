@@ -6,4 +6,4 @@ Welcome to the official repository for the research paper titled "..............
 
 
 
-[**Here is the Web-app:**](https://mlshots.live/Aorta-POCUS-Segmentation/software).
+[**Here is the Web-app:**](https://mlshots.live/YOLO-SAM/software).
