@@ -1,0 +1,9 @@
+# basic options
+title: Aorta Segmentation and Detection for POCUS images.  
+author: Sumit Pandey  
+email: sci.ml.shorts@gmail.com
+github_username:  Sumit-ai-ml
+
+# Build settings
+markdown: kramdown
+theme: minima
