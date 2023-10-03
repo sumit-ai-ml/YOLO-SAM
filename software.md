@@ -1,4 +1,4 @@
-<iframe src="https://sumit-ai-ml-sam-with-yolo.hf.space" frameborder="0" width="850" height="570" ></iframe>
+<iframe src="https://sumit-ai-ml-sam-with-yolo.hf.space" frameborder="0" width="850" height="800" ></iframe>
 
 
 - **Input:**
