@@ -14,13 +14,6 @@ This repository presents a comprehensive approach for segmenting Regions of Inte
 
 We extensively evaluated our approach using various metrics, including precision, recall, F1 score, and Dice Score, to quantify segmentation accuracy. 
 
-### Comparative Analysis
-
-We conducted a comparative analysis to assess the performance of different models:
-
-- **YOLOv8**: Our baseline model for approximate boundary box detection.
-- **YOLOv8+SAM**: Combines YOLOv8 with the SAM model.
-- **YOLOv8+HQ-SAM**: Combines YOLOv8 with the HQ-SAM model.
 
 ## Key Findings
 
@@ -45,14 +38,13 @@ For more details, please refer to our paper [here](link-to-paper).
 If you find our work helpful, please consider citing our paper:
 
 ```
-@article{your-paper-citation,
-  title={Comprehensive Approach for Medical Image Segmentation},
-  author={Your Name and Co-Authors},
-  journal={Medical Imaging Journal},
-  year={Year},
-  volume={Volume},
-  pages={Page Numbers},
-  doi={Your DOI},
+@InProceedings{Pandey_2023_ICCV,
+    author    = {Pandey, Sumit and Chen, Kuan-Fu and Dam, Erik B.},
+    title     = {Comprehensive Multimodal Segmentation in Medical Imaging: Combining YOLOv8 with SAM and HQ-SAM Models},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
+    month     = {October},
+    year      = {2023},
+    pages     = {2592-2598}
 }
 ```
 
