@@ -3,8 +3,8 @@
 
 
 
-- **Input:**
-This software has been meticulously engineered to seamlessly process 2D point-of-care ultrasound (POCUS) images, which are formatted as `.png` or `.jpg` files. These images exhibit dimensions of (x, y, 3), allowing for variations in size, and are fundamental to the core functionality of the software.
+## **Input:**
+This software has been meticulously engineered to seamlessly process 2D Chest CT, 2D chest X-ray and, 2D point-of-care ultrasound (POCUS) images, which are formatted as `.png` or `.jpg` files. These images exhibit dimensions of (x, y, 3), allowing for variations in size, and are fundamental to the core functionality of the software.
 
 
 ## Methodology
