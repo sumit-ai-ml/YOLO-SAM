@@ -3,7 +3,53 @@
 
 - **Input:**
 This software has been meticulously engineered to seamlessly process 2D point-of-care ultrasound (POCUS) images, which are formatted as `.png` or `.jpg` files. These images exhibit dimensions of (x, y, 3), allowing for variations in size, and are fundamental to the core functionality of the software.
-For the purpose of testing and demonstration, a curated selection of sample images is at your disposal. These images can be accessed through the following link: [Sample Images](https://github.com/sumit-ai-ml/Aorta-POCUS-Segmentation/tree/main/sample%20images). Additionally, to evaluate the software's effectiveness, you are invited to utilize POCUS images related to the aorta available on Google : [Google POCUS Images for Aorta](https://www.google.com/search?q=pocus+images+aorta&sca_esv=559361602&rlz=1C1YTUH_enDK1050DK1050&tbm=isch&sxsrf=AB5stBgxduktWZ28njA2vmgGVMG-Cec8mw:1692792001968&source=lnms&sa=X&ved=2ahUKEwixrtLP3fKAAxWxhf0HHfO_BU8Q_AUoAXoECAEQAw&biw=1706&bih=830&dpr=2.25#imgrc=_D035UwnOBy-4M).
+
+
+## Methodology
+
+- **YOLOv8 Training**: We trained the YOLOv8 model using a limited set of 100 images and masks from each modality to generate boundary boxes.
+
+- **Segmentation Models**: We implemented the SAM and HQ-SAM models for precise ROI segmentation. 
+
+## Results and Evaluation
+
+We extensively evaluated our approach using various metrics, including precision, recall, F1 score, and Dice Score, to quantify segmentation accuracy. 
+
+
+## Key Findings
+
+- **SAM Outperforms**: The SAM model exhibited higher segmentation accuracy and overall performance compared to the other models.
+
+- **HQ-SAM**: While HQ-SAM offers potential advantages, its incremental gains over the standard SAM model may not justify the additional computational cost.
+
+## Conclusion
+
+Our findings suggest that the YOLOv8+SAM model holds promise for enhancing medical image segmentation and its clinical implications.
+
+For more details, please refer to our paper [here](https://openaccess.thecvf.com/content/ICCV2023W/CVAMD/papers/Pandey_Comprehensive_Multimodal_Segmentation_in_Medical_Imaging_Combining_YOLOv8_with_SAM_ICCVW_2023_paper.pdf).
+
+## How to Use
+
+1. Clone this repository.
+2. Install the required dependencies.
+3. Run the provided scripts to train and evaluate the models on your own medical image datasets.
+
+## Citation
+
+If you find our work helpful, please consider citing our paper:
+
+```
+@InProceedings{Pandey_2023_ICCV,
+    author    = {Pandey, Sumit and Chen, Kuan-Fu and Dam, Erik B.},
+    title     = {Comprehensive Multimodal Segmentation in Medical Imaging: Combining YOLOv8 with SAM and HQ-SAM Models},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
+    month     = {October},
+    year      = {2023},
+    pages     = {2592-2598}
+}
+```
+
+
 
 - **Hosting:**
 The web application is hosted using the Hugging Face Spaces platform, providing a convenient and accessible environment for users to interact with the software's features and capabilities.
