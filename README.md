@@ -25,7 +25,7 @@ We extensively evaluated our approach using various metrics, including precision
 
 Our findings suggest that the YOLOv8+SAM model holds promise for enhancing medical image segmentation and its clinical implications.
 
-For more details, please refer to our paper [here](link-to-paper).
+For more details, please refer to our paper [here](https://openaccess.thecvf.com/content/ICCV2023W/CVAMD/papers/Pandey_Comprehensive_Multimodal_Segmentation_in_Medical_Imaging_Combining_YOLOv8_with_SAM_ICCVW_2023_paper.pdf).
 
 ## How to Use
 
